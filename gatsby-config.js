@@ -5,12 +5,16 @@ module.exports = {
     author: `@gatsbyjs`,
       menuLinks:[
         {
-          name:'home',
-          link:'/'
+          name : 'home',
+          link : '/'
         },
         {
-          name:'page2',
-          link:'/page-2',
+          name : 'page2',
+          link : '/page-2'
+        },
+        {
+          name : '404',
+          link : '/404 '
         }
       ]
   },
