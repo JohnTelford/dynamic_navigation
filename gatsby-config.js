@@ -9,8 +9,8 @@ module.exports = {
           link : '/'
         },
         {
-          name : 'page2',
-          link : '/page-2'
+          name : 'using-typescript',
+          link : '/using-typescript'
         },
         {
           name : '404',
