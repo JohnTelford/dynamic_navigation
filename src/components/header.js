@@ -65,7 +65,7 @@ Header.propTypes = {
 }
 
 Header.defaultProps = {
-  siteTitle: ``,
+  siteTitle: "MDX Test",
 }
 
 export default Header
