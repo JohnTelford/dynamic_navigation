@@ -36,6 +36,7 @@ const Header = ({ siteTitle, menuLinks }) => (
             {siteTitle}
           </Link>
         </h1>
+        
         <div>
           <nav>
             <ul style={{ display: "flex", flex: 1 }}>

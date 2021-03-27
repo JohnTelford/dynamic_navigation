@@ -1,9 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `MDX Test`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
       menuLinks:[
+        {
+          name : 'tech',
+          link : '/tech'
+        },
+
         {
           name : 'home',
           link : '/'
@@ -14,7 +19,7 @@ module.exports = {
         },
         {
           name : 'tech',
-          link : '/tech '
+          link : '/tech'
         }
       ]
   },
@@ -48,6 +53,5 @@ module.exports = {
     // `gatsby-plugin-offline`,
 
     `gatsby-plugin-mdx`,
-
   ],
 }
